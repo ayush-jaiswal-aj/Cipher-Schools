@@ -8,7 +8,7 @@ public class GameplayManager: MonoBehaviour
 
 	private void Start()
 	{
-		InvokeRepeating("SpawnTarget", lf, 1f);
+		InvokeRepeating("SpawnTarget", 1f, 1f);
 	}
 
 
